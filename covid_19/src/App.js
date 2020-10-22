@@ -5,11 +5,13 @@ import React from 'react';
 //  import CounterPicker from './components/CounterPicker/CounterPicker';
 
  import {Cards,Charts,CounterPicker} from './components';
+import styles from './App.module.css';
+
 
 class App extends React.Component{
     render(){
         return(
-            <div>
+            <div className={styles.container}>
                 <Cards/>
                 <Charts/>
                 <CounterPicker/>
