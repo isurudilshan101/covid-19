@@ -19,19 +19,19 @@ const Cards=(props)=>{
 
             <Grid item component={Card}>
                 <CardContent>
-                    <Typography color="textSecondary" gutterbotto>Infected</Typography>
+                    <Typography color="textSecondary" gutterbotto>Recovered</Typography>
                     <Typography variant="h5"> REAL DATA</Typography>
                     <Typography color="textSecondary">REAL DATE</Typography>
-                    <Typography variant="body2">Number of active cases of COVI-19</Typography>
+                    <Typography variant="body2">Number of active recoveries from COVI-19</Typography>
                 </CardContent>
             </Grid>  
 
             <Grid item component={Card}>
                 <CardContent>
-                    <Typography color="textSecondary" gutterbotto>Infected</Typography>
+                    <Typography color="textSecondary" gutterbotto>Deaths</Typography>
                     <Typography variant="h5"> REAL DATA</Typography>
                     <Typography color="textSecondary">REAL DATE</Typography>
-                    <Typography variant="body2">Number of active cases of COVI-19</Typography>
+                    <Typography variant="body2">Number of deaths  coused by COVI-19</Typography>
                 </CardContent>
             </Grid>  
 
