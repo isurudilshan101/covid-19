@@ -4,10 +4,11 @@ import React from 'react';
 //  import Charts from './components/Charts/Charts';
 //  import CounterPicker from './components/CounterPicker/CounterPicker';
 
- import {Cards,Charts,CounterPicker} from './components';
+import {Cards,Charts,CounterPicker} from './components';
 import styles from './App.module.css';
 import {fetchData} from './api';
-//import fetchData from './api/index';
+
+
 
 class App extends React.Component{
 
